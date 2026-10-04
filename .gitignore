@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment and sensitive configuration
+.env
+.env.local
+*.key
+*.pem
+
+# Captured traffic & private network data
+*.pcap
+*.pcapng
+*.cap
+captures/
+private/
+temp_captures/
+
+# Exported runtime data & logs
+*.log
+export_*.csv
+export_*.json
+exports/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+Thumbs.db
+Desktop.ini
+.DS_Store

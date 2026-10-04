@@ -1,0 +1,8 @@
+# CodeAlpha Cyber Security Internship - Task 1: Basic Network Sniffer
+# Required dependencies for packet capture, analysis, and testing
+
+scapy>=2.5.0,<=2.8.0
+pytest>=8.0.0
+
+# Note: Tkinter is included in the standard Python installation on Windows.
+# Note: Npcap is required on Windows for packet capture (https://npcap.com/#download).
