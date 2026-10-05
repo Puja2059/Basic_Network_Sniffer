@@ -34,7 +34,7 @@ The application is designed as an **educational and defensive network-analysis t
 
 ### 1. Live Capture Dashboard
 
-![Live_Capture.png]
+![Live Capture Dashboard](screenshots/live-capture-dashboard.jpg)
 
 **Real-time network traffic capture**
 
@@ -53,7 +53,7 @@ The interface provides:
 
 ### 2. Layer 2 & Layer 3 Packet Dissection
 
-![Layer 2 and Layer 3 Packet Dissection](screenshots/Screenshot%202026-10-05%20184048.jpg)
+![Layer 2 & Layer 3 Packet Dissection](screenshots/layer2-layer3-dissection.jpg)
 
 **Ethernet and IPv4 header analysis**
 
@@ -75,7 +75,7 @@ This provides visibility into how packet information is structured across the lo
 
 ### 3. Layer 4 Transport Dissection — UDP/DNS
 
-![UDP DNS Packet Dissection](screenshots/image_066337.jpg)
+![Layer 4 UDP/DNS Dissection](screenshots/layer4-udp-dns-dissection.jpg)
 
 **UDP transport-layer analysis**
 
@@ -93,7 +93,7 @@ This helps visualize how application protocols such as DNS are transported over 
 
 ### 4. Protocol Filtering
 
-![Protocol Filtering](screenshots/image_066d99.jpg)
+![Protocol Filtering](screenshots/protocol-filtering.jpg)
 
 **Real-time packet filtering**
 
@@ -112,7 +112,7 @@ Additional filtering options include:
 
 ### 5. Protocol Intelligence & Security Context
 
-![Protocol Analysis and Security Notes](screenshots/image_066df9.jpg)
+![Protocol Analysis & Security Notes](screenshots/protocol-analysis-security-notes.jpg)
 
 **Protocol analysis and security-oriented explanations**
 
@@ -126,7 +126,7 @@ This feature is intended to connect **packet-level observations with fundamental
 
 ### 6. Automated Testing
 
-![Automated Tests](screenshots/image_066a3d.png)
+![Automated Tests](screenshots/automated-tests-27-passing.png)
 
 **27 automated tests passing**
 
