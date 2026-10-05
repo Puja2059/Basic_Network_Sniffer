@@ -34,7 +34,7 @@ The application is designed as an **educational and defensive network-analysis t
 
 ### 1. Live Capture Dashboard
 
-![Live Capture Dashboard](Live_Capture.png)
+![Live_Capture.png]
 
 **Real-time network traffic capture**
 
