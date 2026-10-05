@@ -146,40 +146,6 @@ class SnifferGUI:
         )
         subtitle_lbl.pack(anchor=tk.W)
 
-        # Right badges: Admin Status and Driver Status
-        badge_box = tk.Frame(header_frame, bg=self.COLOR_HEADER)
-        badge_box.pack(side=tk.RIGHT, fill=tk.Y)
-
-        # Admin Badge
-        admin_text = "🔒 Admin Mode: Active" if self.is_admin_mode else "⚠️ User Mode (Admin Recommended)"
-        admin_bg = "#198754" if self.is_admin_mode else "#d97706"
-        admin_badge = tk.Label(
-            badge_box,
-            text=admin_text,
-            font=("Segoe UI", 8, "bold"),
-            fg="#ffffff",
-            bg=admin_bg,
-            padx=8,
-            pady=3,
-            relief=tk.FLAT,
-        )
-        admin_badge.pack(side=tk.RIGHT, padx=4)
-
-        # Npcap Badge
-        pcap_text = "✓ Npcap Ready" if self.npcap_present else "✗ Npcap Driver Missing"
-        pcap_bg = "#0d6efd" if self.npcap_present else "#dc3545"
-        pcap_badge = tk.Label(
-            badge_box,
-            text=pcap_text,
-            font=("Segoe UI", 8, "bold"),
-            fg="#ffffff",
-            bg=pcap_bg,
-            padx=8,
-            pady=3,
-            relief=tk.FLAT,
-        )
-        pcap_badge.pack(side=tk.RIGHT, padx=4)
-
     def _build_control_panel(self) -> None:
         """Interface selection, capture start/stop controls, and packet limit."""
         control_frame = tk.LabelFrame(
