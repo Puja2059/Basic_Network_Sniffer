@@ -1,4 +1,4 @@
-<img width="1916" height="1002" alt="Live_Capture" src="https://github.com/user-attachments/assets/f1744b6f-fe58-42c8-8e1a-3f9a728bf27a" /># Network Packet Sniffer & Protocol Analyzer
+# Network Packet Sniffer & Protocol Analyzer
 
 A Python-based desktop network packet sniffer and protocol analyzer built with **Scapy and Tkinter**. The application captures live network traffic, analyzes packet headers across multiple OSI layers, classifies common protocols, provides real-time filtering and statistics, and exports packet metadata to CSV and JSON.
 
@@ -34,8 +34,7 @@ The application is designed as an **educational and defensive network-analysis t
 
 ### 1. Live Capture Dashboard
 
-![Live Capture Dashboard](live_capture.png)
-)
+![Live Capture Dashboard](Live_Capture.png)
 
 **Real-time network traffic capture**
 
