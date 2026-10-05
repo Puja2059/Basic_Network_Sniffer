@@ -1,13 +1,4 @@
-"""
-export_manager.py
-=================
-Data export services for CodeAlpha Basic Network Sniffer.
-Exports captured packet metadata to CSV and JSON formats while adhering
-to security, privacy, and data-integrity best practices.
 
-Author: CodeAlpha Cyber Security Intern
-Project: Basic Network Sniffer (Task 1)
-"""
 
 import csv
 import json
